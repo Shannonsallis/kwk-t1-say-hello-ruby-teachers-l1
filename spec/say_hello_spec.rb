@@ -1,6 +1,10 @@
 def say_hello(name)
 puts "Hello Kent Beck"
+end
+
+def say_hello(name="Ruby Programmer!")
 require_relative './spec_helper'
+end
 
 describe "say_hello" do
 
